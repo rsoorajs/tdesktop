@@ -440,7 +440,7 @@ infoPeerBadge: InfoPeerBadge {
 	premium: infoPremiumStar;
 	premiumFg: profileVerifiedCheckBg;
 	position: infoVerifiedCheckPosition;
-	sizeTag: 1; // Large
+	sizeTag: 0; // Normal
 }
 
 infoIconFg: windowBoldFg;
@@ -508,7 +508,7 @@ infoOpenApp: RoundButton(defaultActiveButton) {
 }
 infoOpenAppMargin: margins(16px, 12px, 16px, 12px);
 
-infoPersonalChannelIconPosition: point(25px, 20px);
+infoPersonalChannelIconPosition: point(25px, 12px);
 infoPersonalChannelNameLabel: FlatLabel(infoProfileStatus) {
 	textFg: windowBoldFg;
 	style: semiboldTextStyle;
